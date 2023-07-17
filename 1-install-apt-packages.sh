@@ -31,6 +31,7 @@ sudo apt install -y spotify-client
 sudo apt install -y sublime-text
 sudo apt install -y telegram-desktop
 sudo apt install -y thunar
+sudo apt install -y thunar-archive-plugin
 sudo apt install -y virtualbox
 sudo apt install -y vlc
 sudo apt install -y xfce4-terminal
