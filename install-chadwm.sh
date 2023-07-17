@@ -13,7 +13,7 @@
 
 sudo apt install -y build-essential libx11-dev libxft-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev
 
-sudo apt install -y picom feh acpi rofi
+sudo apt install -y picom feh acpi rofi sxhkd
 
 echo "################################################################"
 echo "###################    zsh installed     ######################"

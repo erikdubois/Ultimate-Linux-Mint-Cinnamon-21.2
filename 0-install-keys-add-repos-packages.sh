@@ -49,6 +49,14 @@ sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.
 echo "Adding the repo"
 sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 
+echo "################################################################"
+echo "Alacritty"
+echo "################################################################"
+echo
+
+sudo add-apt-repository ppa:aslatter/ppa
+
+
 sudo apt update
 
 #Installed via keys and repo add
@@ -56,6 +64,7 @@ sudo apt install -y vivaldi-stable
 sudo apt install -y google-chrome-stable
 sudo apt install -y brave-browser
 sudo apt install -y code
+sudo apt install -y alacritty
 
 
 echo "################################################################"
