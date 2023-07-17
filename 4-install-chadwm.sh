@@ -14,7 +14,7 @@
 # installing dependencies to build
 sudo apt install -y build-essential libimlib2-dev libx11-dev libxft-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev
 
-cp arco-chadwm $USER/.config/
+cp -r arco-chadwm $HOME/.config/
 
 echo "################################################################"
 echo "#################    chadwm installed     ######################"
