@@ -11,10 +11,7 @@
 #
 ##################################################################################################################
 
-sudo apt update
 sudo apt upgrade -y
-
-
 
 sudo apt install -y chromium
 sudo apt install -y dconf-editor
