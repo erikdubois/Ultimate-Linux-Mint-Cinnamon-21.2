@@ -20,7 +20,11 @@ sudo apt install -y catfish
 sudo apt install -y duf
 sudo apt install -y feh
 sudo apt install -y fontmanager
+sudo apt install -y hwinfo
+sudo apt install -y hw-probe
+sudo apt install -y lolcat
 sudo apt install -y nitrogen
+sudo apt install -y nomacs
 sudo apt install -y numlockx
 sudo apt install -y pavucontrol
 sudo apt install -y picom
