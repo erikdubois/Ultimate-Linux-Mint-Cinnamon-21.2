@@ -24,6 +24,7 @@ sudo apt install -y git
 sudo apt install -y inkscape
 sudo apt install -y meld
 sudo apt install -y obs-studio
+sudo apt install -y qbittorrent
 sudo apt install -y rxvt-unicode
 sudo apt install -y simplescreenrecorder
 sudo apt install -y spotify-client

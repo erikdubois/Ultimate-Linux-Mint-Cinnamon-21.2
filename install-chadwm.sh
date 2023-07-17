@@ -16,7 +16,9 @@ sudo apt install -y build-essential libx11-dev libxft-dev libxinerama-dev libfre
 sudo apt install -y acpi
 sudo apt install -y arandr
 sudo apt install -y autorandr
+sudo apt install -y duf
 sudo apt install -y feh
+sudo apt install -y fonts-jetbrains-mono
 sudo apt install -y numlockx
 sudo apt install -y picom 
 sudo apt install -y rofi
