@@ -21,7 +21,7 @@ sudo apt remove -y transmission-cli
 
 sudo apt remove -y thunderbird
  
-
+sudo apt autoremove -y
 
 echo "################################################################"
 echo "###################    Packages removed   ######################"

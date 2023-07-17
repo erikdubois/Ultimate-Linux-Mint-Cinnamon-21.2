@@ -66,7 +66,6 @@ sudo apt install -y brave-browser
 sudo apt install -y code
 sudo apt install -y alacritty
 
-
 echo "################################################################"
 echo "###################    Installation Done  ######################"
 echo "################################################################"
