@@ -75,8 +75,8 @@ super + c
 #    urxvt 'htop task manager' -e htop
 
 #archlinux-logout
-super + x
-    archlinux-logout
+#super + x
+#    archlinux-logout
 
 #Rofi theme selector
 super + r
@@ -178,12 +178,12 @@ ctrl + alt + i
      nitrogen
 
 #archlinux-logout
-ctrl + alt + k
-     archlinux-logout
+#ctrl + alt + k
+#     archlinux-logout
 
 #archlinux-logout
-ctrl + alt + l
-    archlinux-logout
+#ctrl + alt + l
+#    archlinux-logout
 
 #Pamac-manager
 ctrl + alt + p

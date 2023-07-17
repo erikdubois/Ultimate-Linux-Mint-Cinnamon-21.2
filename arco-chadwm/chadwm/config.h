@@ -37,7 +37,7 @@ static const int new_window_attach_on_end = 0; /*  1 means the new window will a
 #define ICONSIZE 19   /* icon size */
 #define ICONSPACING 8 /* space between icon and title */
 
-static const char *fonts[]          = {"JetBrainsMonoBold:size=13"};
+static const char *fonts[]          = {"FreeSans:size=13"};
 
 // theme
 #include "themes/onedark.h"
@@ -80,7 +80,7 @@ static const char *colors[][3]      = {
 //static char *tags[] = { "Web", "Chat", "Edit", "Meld", "Vb", "Mail", "Video", "Image", "Files", "Music" };
 static char *tags[] = {"一", "二", "三", "四", "五", "六", "七", "八", "九", "十"};
 
-static const char* eww[] = { "eww", "open" , "eww", NULL };
+//static const char* eww[] = { "eww", "open" , "eww", NULL };
 static const char* discord[] = { "discord", "open" , "discord", NULL };
 static const char* telegram[] = { "telegram-desktop", "open" , "telegram-desktop", NULL };
 static const char* mintstick[] = { "mintstick", "-m", "iso", NULL};
@@ -88,11 +88,11 @@ static const char* pavucontrol[] = { "pavucontrol", NULL };
 
 static const Launcher launchers[] = {
     /* command     name to display */
-    { eww,           "數" },
-    { discord,       "ﱲ" },
-    { telegram,      "" },
-    { mintstick,     "虜" },
-    { pavucontrol,   "墳" },
+//    { eww,           "𐒄" },
+    { discord,       "𐒙" },
+    { telegram,      "𐒜" },
+    { mintstick,     "𐒗" },
+    { pavucontrol,   "𐒥" },
 };
 
 static const int tagschemes[] = {
@@ -252,7 +252,7 @@ static const Key keys[] = {
     { MODKEY|ShiftMask,                 XK_w,       setborderpx,    {.i = default_border } },
 
     // kill dwm
-    //{ MODKEY|ControlMask,               XK_q,       spawn,        SHCMD("killall bar.sh dwm") },
+    { MODKEY|ControlMask,               XK_x,       spawn,        SHCMD("killall bar.sh chadwm") },
 
     // kill window
     { MODKEY,                           XK_q,       killclient,     {0} },
