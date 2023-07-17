@@ -22,6 +22,8 @@ sudo make install
 
 sudo touch /usr/share/xsessions/chadwm.desktop
 
+echo "Change your username here!!!!!!"
+
 echo '
 [Desktop Entry]
 Encoding=UTF-8
