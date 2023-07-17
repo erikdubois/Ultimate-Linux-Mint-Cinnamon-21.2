@@ -20,7 +20,6 @@ wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key 
 echo "Adding the repo"
 echo 'deb https://repo.vivaldi.com/archive/deb/ stable main' | sudo tee /etc/apt/sources.list.d/vivaldi.list
 
-
 echo "################################################################"
 echo "Google Chrome"
 echo "################################################################"
@@ -30,8 +29,6 @@ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key ad
 echo "Adding the repo"
 echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
 
-
-
 echo "################################################################"
 echo "Brave"
 echo "################################################################"
@@ -40,14 +37,6 @@ echo "Getting the key"
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
 echo "Adding the repo"
 echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-
-
-echo "################################################################"
-echo "simplescreenrecorder"
-echo "################################################################"
-echo
-echo "Adding the repo"
-sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder -y
 
 
 echo "################################################################"
@@ -61,18 +50,11 @@ echo "Adding the repo"
 sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 
 
-echo "################################################################"
-echo "Spotify"
-echo "################################################################"
-echo
-echo "Getting the key"
-curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
-sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
-echo "Adding the repo"
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-
-
-
+#Installed via keys and repo add
+sudo apt install -y vivaldi-stable
+sudo apt install -y google-chrome-stable
+sudo apt install -y brave-browser
+sudo apt install -y code
 
 
 echo "################################################################"
