@@ -20,6 +20,18 @@ cd $HOME/.config/arco-chadwm/chadwm
 make
 sudo make install
 
+sudo touch /usr/share/xsessions/chadwm.desktop
+
+echo '
+[Desktop Entry]
+Encoding=UTF-8
+Name=Chadwm
+Comment=Dynamic window manager
+Exec=/home/erik/.config/arco-chadwm/scripts/./run.sh
+Icon=chadwm
+Type=Application' | sudo tee /usr/share/xsessions/chadwm.desktop
+
+
 echo "################################################################"
 echo "#################    chadwm installed     ######################"
 echo "################################################################"
