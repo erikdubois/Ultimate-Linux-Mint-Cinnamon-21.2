@@ -14,8 +14,8 @@
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt install -y arandr
-sudo apt install -y autorandr
+
+
 sudo apt install -y chromium
 sudo apt install -y dconf-editor
 sudo apt install -y flameshot
@@ -23,7 +23,7 @@ sudo apt install -y gimp
 sudo apt install -y git
 sudo apt install -y inkscape
 sudo apt install -y meld
-sudo apt install -y numlockx
+
 sudo apt install -y obs-studio
 sudo apt install -y rxvt-unicode
 sudo apt install -y simplescreenrecorder
