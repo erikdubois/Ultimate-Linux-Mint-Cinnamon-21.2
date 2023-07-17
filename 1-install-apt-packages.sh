@@ -23,13 +23,11 @@ sudo apt install -y gimp
 sudo apt install -y git
 sudo apt install -y inkscape
 sudo apt install -y meld
-
 sudo apt install -y obs-studio
 sudo apt install -y rxvt-unicode
 sudo apt install -y simplescreenrecorder
 sudo apt install -y spotify-client
 sudo apt install -y sublime-text
-sudo apt install -y suckless-tools
 sudo apt install -y telegram-desktop
 sudo apt install -y thunar
 sudo apt install -y virtualbox

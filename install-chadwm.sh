@@ -20,6 +20,7 @@ sudo apt install -y feh
 sudo apt install -y numlockx
 sudo apt install -y picom 
 sudo apt install -y rofi
+sudo apt install -y suckless-tools
 sudo apt install -y sxhkd
 sudo apt install -y xfce4-taskmanager
 
