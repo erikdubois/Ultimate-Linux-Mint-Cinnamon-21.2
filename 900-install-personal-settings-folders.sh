@@ -84,7 +84,7 @@ echo
 echo "Installing personal settings of variety"
 [ -d $HOME"/.config/variety" ] || mkdir -p $HOME"/.config/variety"
 cp $installed_dir/personal/variety/variety.conf ~/.config/variety/
-cp $installed_dir/personal/variety/set_wallpaper_arco ~/.config/variety/scripts/
+cp $installed_dir/personal/variety/set_wallpaper ~/.config/variety/scripts/
 
 echo
 echo "Installing .bashrc"
