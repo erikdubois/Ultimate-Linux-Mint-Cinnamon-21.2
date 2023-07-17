@@ -23,6 +23,7 @@ sudo apt install -y fontmanager
 sudo apt install -y hwinfo
 sudo apt install -y hw-probe
 sudo apt install -y lolcat
+sudo apt install -y most
 sudo apt install -y nitrogen
 sudo apt install -y nomacs
 sudo apt install -y numlockx

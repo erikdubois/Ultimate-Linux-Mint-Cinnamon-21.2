@@ -38,14 +38,6 @@ alias l='ls'
 alias l.="ls -A | egrep '^\.'"
 alias listdir="ls -d */ > list"
 
-# show the list of packages that need this package - depends mpv as example
-function_depends()  {
-    search=$(echo "$1")
-    sudo pacman -Sii $search | grep "Required" | sed -e "s/Required By     : //g" | sed -e "s/  /\n/g"
-    }
-
-alias depends='function_depends'
-
 #fix obvious typo's
 alias cd..='cd ..'
 alias pdw='pwd'
@@ -86,7 +78,6 @@ alias userlist="cut -d: -f1 /etc/passwd | sort"
 alias merge="xrdb -merge ~/.Xresources"
 
 # Aliases for software managment
-# pacman or pm
 alias update='sudo apt upgrade'
 alias upd='sudo apt upgrade'
 
@@ -152,9 +143,6 @@ shopt -s dotglob
 shopt -s histappend # do not overwrite history
 shopt -s expand_aliases # expand aliases
 
-#clear
-alias clean="clear; seq 1 $(tput cols) | sort -R | sparklines | lolcat"
-
 #search content with ripgrep
 alias rg="rg --sort path"
 
@@ -165,18 +153,14 @@ alias jctl="journalctl -p 3 -xb"
 #know what you do in these files
 alias nlxdm="sudo $EDITOR /etc/lxdm/lxdm.conf"
 alias nlightdm="sudo $EDITOR /etc/lightdm/lightdm.conf"
-alias npacman="sudo $EDITOR /etc/pacman.conf"
 alias ngrub="sudo $EDITOR /etc/default/grub"
 alias nconfgrub="sudo $EDITOR /boot/grub/grub.cfg"
 alias nmkinitcpio="sudo $EDITOR /etc/mkinitcpio.conf"
-alias nmirrorlist="sudo $EDITOR /etc/pacman.d/mirrorlist"
-alias narcomirrorlist="sudo $EDITOR /etc/pacman.d/arcolinux-mirrorlist"
 alias nsddm="sudo $EDITOR /etc/sddm.conf"
 alias nsddmk="sudo $EDITOR /etc/sddm.conf.d/kde_settings.conf"
 alias nfstab="sudo $EDITOR /etc/fstab"
 alias nnsswitch="sudo $EDITOR /etc/nsswitch.conf"
 alias nsamba="sudo $EDITOR /etc/samba/smb.conf"
-alias ngnupgconf="sudo $EDITOR /etc/pacman.d/gnupg/gpg.conf"
 alias nhosts="sudo $EDITOR /etc/hosts"
 alias nhostname="sudo $EDITOR /etc/hostname"
 alias nresolv="sudo $EDITOR /etc/resolv.conf"
@@ -188,8 +172,6 @@ alias nplymouth="sudo $EDITOR /etc/plymouth/plymouthd.conf"
 alias nvconsole="sudo $EDITOR /etc/vconsole.conf"
 
 #reading logs with bat
-alias lcalamares="bat /var/log/Calamares.log"
-alias lpacman="bat /var/log/pacman.log"
 alias lxorg="bat /var/log/Xorg.0.log"
 alias lxorgo="bat /var/log/Xorg.0.log.old"
 
@@ -200,7 +182,6 @@ alias fix-gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 #receive the key of a developer
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 alias fix-gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
-alias fix-keyserver="[ -d ~/.gnupg ] || mkdir ~/.gnupg ; cp /etc/pacman.d/gnupg/gpg.conf ~/.gnupg/ ; echo 'done'"
 
 #fixes
 alias fix-permissions="sudo chown -R $USER:$USER ~/.config ~/.local"
