@@ -20,6 +20,7 @@ sudo apt install -y duf
 sudo apt install -y feh
 sudo apt install -y fonts-jetbrains-mono
 sudo apt install -y numlockx
+sudo apt install -y pavucontrol
 sudo apt install -y picom 
 sudo apt install -y rofi
 sudo apt install -y suckless-tools
