@@ -19,7 +19,7 @@ sudo apt install -y autorandr
 sudo apt install -y catfish
 sudo apt install -y duf
 sudo apt install -y feh
-sudo apt install -y fontmanager
+sudo apt install -y font-manager
 sudo apt install -y hwinfo
 sudo apt install -y hw-probe
 sudo apt install -y lolcat
