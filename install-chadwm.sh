@@ -13,7 +13,15 @@
 
 sudo apt install -y build-essential libx11-dev libxft-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev
 
-sudo apt install -y picom feh acpi rofi sxhkd
+sudo apt install -y acpi
+sudo apt install -y arandr
+sudo apt install -y autorandr
+sudo apt install -y feh
+sudo apt install -y numlockx
+sudo apt install -y picom 
+sudo apt install -y rofi
+sudo apt install -y sxhkd
+sudo apt install -y xfce4-taskmanager
 
 echo "################################################################"
 echo "###################    zsh installed     ######################"
