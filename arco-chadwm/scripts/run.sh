@@ -1,5 +1,6 @@
 #!/bin/sh
 
+xrandr --output Virtual1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
 /usr/lib/notification-daemon/notification-daemon &
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 #nm-applet &
