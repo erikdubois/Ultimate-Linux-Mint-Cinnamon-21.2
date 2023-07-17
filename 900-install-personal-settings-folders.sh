@@ -61,6 +61,7 @@ echo
 [ -d $HOME"/.config/gtk-3.0" ] || mkdir -p $HOME"/.config/gtk-3.0"
 #[ -d $HOME"/.config/gtk-4.0" ] || mkdir -p $HOME"/.config/gtk-4.0"
 [ -d $HOME"/.config/variety" ] || mkdir -p $HOME"/.config/variety"
+[ -d $HOME"/.config/variety/scripts" ] || mkdir -p $HOME"/.config/variety/scripts"
 #[ -d $HOME"/.config/fish" ] || mkdir -p $HOME"/.config/fish"
 #[ -d $HOME"/.config/neofetch" ] || mkdir -p $HOME"/.config/neofetch"
 [ -d $HOME"/DATA" ] || mkdir -p $HOME"/DATA"
