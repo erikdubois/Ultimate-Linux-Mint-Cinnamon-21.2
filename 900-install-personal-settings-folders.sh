@@ -78,12 +78,16 @@ echo
 echo
 echo "Adding personal thunar to .config/thunar"
 [ -d $HOME"/.config/Thunar" ] || mkdir -p $HOME"/.config/Thunar"
-cp  $installed_dir/settings/thunar/uca.xml $HOME/.config/Thunar
+cp  $installed_dir/personal/thunar/uca.xml $HOME/.config/Thunar
 
 echo
 echo "Installing personal settings of variety"
 [ -d $HOME"/.config/variety" ] || mkdir -p $HOME"/.config/variety"
-cp $installed_dir/settings/variety/variety.conf ~/.config/variety/
+cp $installed_dir/personal/variety/variety.conf ~/.config/variety/
+
+echo
+echo "Installing .bashrc"
+cp $installed_dir/personal/bash/bashrc ~/.bashrc
 
 echo
 tput setaf 6
