@@ -16,6 +16,10 @@ sudo apt install -y build-essential libimlib2-dev libx11-dev libxft-dev libxiner
 
 cp -r arco-chadwm $HOME/.config/
 
+cd $HOME/.config/arco-chadwm/chadwm
+make
+sudo make install
+
 echo "################################################################"
 echo "#################    chadwm installed     ######################"
 echo "################################################################"
