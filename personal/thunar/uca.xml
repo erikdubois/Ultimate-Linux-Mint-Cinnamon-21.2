@@ -31,15 +31,6 @@
 	<directories/>
 </action>
 <action>
-	<icon>gitahead</icon>
-	<name>Open with gitahead</name>
-	<unique-id>1587287434852027-1</unique-id>
-	<command>gitahead %F</command>
-	<description>Open with gitahead</description>
-	<patterns>*</patterns>
-	<directories/>
-</action>
-<action>
 	<icon>gitfiend</icon>
 	<name>Open with gitfiend</name>
 	<unique-id>1587287435012027-1</unique-id>
@@ -149,20 +140,6 @@
 	<patterns>*</patterns>
 	<other-files/>
 	<text-files/>
-</action>
-<action>
-	<icon>conky-manager</icon>
-	<name>Conkyzen</name>
-	<unique-id>1510943357717982-3</unique-id>
-	<command>am-conkyzen</command>
-	<description>conkyzen</description>
-	<patterns>*</patterns>
-	<directories/>
-	<audio-files/>
-	<image-files/>
-	<other-files/>
-	<text-files/>
-	<video-files/>
 </action>
 <action>
 	<icon>com.deepin.ScreenShot</icon>
