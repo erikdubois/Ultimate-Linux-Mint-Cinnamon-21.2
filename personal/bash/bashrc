@@ -94,9 +94,6 @@ alias install-grub-efi="sudo grub-install --target=x86_64-efi --efi-directory=/b
 #add new fonts
 alias update-fc='sudo fc-cache -fv'
 
-#copy/paste all content of /etc/skel over to home folder - backup of config created - beware
-#skel alias has been replaced with a script at /usr/local/bin/skel
-
 #backup contents of /etc/skel to hidden backup folder in home/user
 alias bupskel='cp -Rf /etc/skel ~/.skel-backup-$(date +%Y.%m.%d-%H.%M.%S)'
 
@@ -155,7 +152,6 @@ alias nlxdm="sudo $EDITOR /etc/lxdm/lxdm.conf"
 alias nlightdm="sudo $EDITOR /etc/lightdm/lightdm.conf"
 alias ngrub="sudo $EDITOR /etc/default/grub"
 alias nconfgrub="sudo $EDITOR /boot/grub/grub.cfg"
-alias nmkinitcpio="sudo $EDITOR /etc/mkinitcpio.conf"
 alias nsddm="sudo $EDITOR /etc/sddm.conf"
 alias nsddmk="sudo $EDITOR /etc/sddm.conf.d/kde_settings.conf"
 alias nfstab="sudo $EDITOR /etc/fstab"
@@ -235,9 +231,6 @@ alias ltupg="leftwm-theme upgrade"
 #git
 alias rmgitcache="rm -r ~/.cache/git"
 alias grh="git reset --hard"
-
-#moving your personal files and folders from /personal to ~
-alias personal='cp -Rf /personal/* ~'
 
 #create a file called .bashrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
