@@ -11,8 +11,6 @@
 #
 ##################################################################################################################
 
-sudo apt install -y build-essential libimlib2-dev libx11-dev libxft-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev
-
 sudo apt install -y acpi
 sudo apt install -y arandr
 sudo apt install -y autorandr
