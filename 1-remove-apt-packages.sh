@@ -19,10 +19,25 @@ sudo apt remove -y transmission-qt
 sudo apt remove -y transmission-cli
 
 sudo apt remove -y mint-backgrounds-vanessa
-sudo apt remove -y mint-backgrounds-veraq
+sudo apt remove -y mint-backgrounds-vera
+
+sudo apt remove -y onboard onboard-common
 
 sudo apt remove -y thunderbird
- 
+sudo apt remove -y gnome-calendar
+sudo apt remove -y webapp-manager
+sudo apt remove -y thingy
+
+sudo apt remove -y celluloid 
+sudo apt remove -y rhythmbox rhythmbox-data
+sudo apt remove -y hypnotix 
+sudo apt remove -y sticky
+sudo apt remove -y timeshift
+sudo apt remove -y seahorse
+
+sudo apt remove --purge libreoffice* -y
+sudo apt clean -y
+
 sudo apt autoremove -y
 
 echo "################################################################"
