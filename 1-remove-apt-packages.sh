@@ -34,6 +34,7 @@ sudo apt remove -y hypnotix
 sudo apt remove -y sticky
 sudo apt remove -y timeshift
 sudo apt remove -y seahorse
+sudo apt remove -y gufw
 
 sudo apt remove --purge libreoffice* -y
 sudo apt clean -y
