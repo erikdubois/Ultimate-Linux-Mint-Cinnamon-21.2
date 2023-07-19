@@ -39,5 +39,5 @@ sudo apt install -y xfce4-taskmanager
 sudo apt install -y xfce4-terminal
 
 echo "################################################################"
-echo "#################    chadwm installed     ######################"
+echo "#################    chadwm extras installed   #################"
 echo "################################################################"

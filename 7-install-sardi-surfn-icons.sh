@@ -11,10 +11,15 @@
 #
 ##################################################################################################################
 
-git clone https://github.com/arcolinux/a-candy-beauty-icon-theme.git /tmp/candy
+git clone https://github.com/erikdubois/Surfn.git /tmp/surfn
 
 mkdir $HOME/.icons
-mv /tmp/candy/usr/share/icons/* $HOME/.icons/
+mv /tmp/surfn/surfn-icons/* $HOME/.icons/
+
+mkdir /tmp/sardi
+wget https://sourceforge.net/projects/sardi/files/latest/download -O /tmp/sardi/download.tar.gz
+
+unzip /tmp/sardi/download.tar.gz -d $HOME/.icons
 
 echo "################################################################"
 echo "###################    icons installed     ######################"
