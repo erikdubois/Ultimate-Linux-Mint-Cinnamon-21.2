@@ -18,6 +18,8 @@ sudo apt remove -y transmission-common
 sudo apt remove -y transmission-qt
 sudo apt remove -y transmission-cli
 
+sudo apt remove -y mint-backgrounds-vanessa
+sudo apt remove -y mint-backgrounds-veraq
 
 sudo apt remove -y thunderbird
  
