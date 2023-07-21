@@ -37,6 +37,7 @@ sudo apt install -y thunar-archive-plugin
 sudo apt install -y variety
 sudo apt install -y xfce4-taskmanager
 sudo apt install -y xfce4-terminal
+sudo apt install -y silversearcher-ag
 
 echo "################################################################"
 echo "#################    chadwm extras installed   #################"
