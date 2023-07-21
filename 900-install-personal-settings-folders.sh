@@ -92,6 +92,17 @@ echo "Installing .bashrc"
 cp $installed_dir/personal/bash/bashrc ~/.bashrc
 
 echo
+echo "Grub timeout lower"
+FIND="GRUB_TIMEOUT=0"
+REPLACE="GRUB_TIMEOUT=x"
+sudo sed -i "s/$FIND/$REPLACE/g" /etc/default/grub
+sudo update-grub
+
+echo
+echo "Grub theme"
+sudo apt install grub2-theme-mint
+
+echo
 tput setaf 6
 echo "################################################################"
 echo "################### Done"
