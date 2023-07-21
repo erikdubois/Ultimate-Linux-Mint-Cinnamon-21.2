@@ -1,4 +1,4 @@
 Download the debian packages
 and 
 install with
-dpkg -i ./package
+sudo dpkg -i ./package
